@@ -9,6 +9,6 @@ def dia_de_hoy(request):
     documentoDeTexto = f"Hoy es dia: <br> {dia}"
     return HttpResponse(documentoDeTexto)
 
-def miNombreeEs(self, nombre):
+def miNombreEs(self, nombre):
     documentoDeTexto = f"Mi nombre es: <br><br> {nombre}"
     return HttpResponse(documentoDeTexto)
